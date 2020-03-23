@@ -12,12 +12,8 @@ build:
 requirements:
   build:
     - cmake
-    - gcc_linux-64
+    - {{ compiler('c') }}
 
 about:
   home: https://github.com/NSLS-II/lmfit
-  license: FreeBSD
-    
-extra:
-  recipe-maintainers:
-    - stuwilkins
+  license: FreeBSD 
