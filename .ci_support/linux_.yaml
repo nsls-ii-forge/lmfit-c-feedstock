@@ -1,3 +1,5 @@
+c_compiler:
+- gcc
 channel_sources:
 - nsls2forge,defaults
 channel_targets:
